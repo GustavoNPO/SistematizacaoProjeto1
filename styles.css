@@ -48,3 +48,69 @@ h1, h2{
     max-width: 800px;
     margin: 20px auto 50px auto;
 }
+.equipe-section{
+    margin-top: 60px;
+    
+}
+.equipe-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.membro-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0px 4px 8px purple;
+}
+.membro-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid ;
+
+}
+.contato-form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px purple;
+    text-align: left;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-group{
+   display:flex ;
+   flex-direction: column;
+}
+.form-group label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contato-form input{
+    padding: 12px;
+    border: 1px solid #bb0099;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+.contato-form button{
+    padding: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #440238;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contato-form button:hover{
+    background-color: #bb0099;
+}

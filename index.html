@@ -1,47 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClinicaJuarez</title>
+    <title>Clinica Juarez</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>ClínicaJuarez</h1>
+        <h1>Clínica Juarez</h1>
         <p class="clinica-descricao">
-            Bem-vindo(a) à Clínica Juarez, onde a ciência e a arte da estética se encontram para realçar sua beleza natural. Nossa missão é oferecer tratamentos personalizados e seguros, utilizando tecnologia de ponta e o conhecimento de profissionais apaixonados pelo que fazem. Acreditamos que cuidar da pele é cuidar da saúde e do bem-estar. Venha nos conhecer e descubra a melhor versão de você.
+            Bem-vindo(a) à Clínica Juarez, onde a ciência e a arte da estética se encontram para realçar sua beleza
+            natural. Nossa missão é oferecer tratamentos personalizados e seguros, utilizando tecnologia de ponta e o
+            conhecimento de profissionais apaixonados pelo que fazem. Acreditamos que cuidar da pele é cuidar da saúde e
+            do bem-estar. Venha nos conhecer e descubra a melhor versão de você.
         </p>
+        <h2>
+            Produtos em destaque
+        </h2>
         <div class="produtos-container">
             <div class="produto-card">
                 <h2>Creme Hidratante CeraVe</h2>
-                <img src="https://beautyinsider.sg/wp-content/uploads/2021/12/cerave-moisturizing-cream-dry-to-very-dry-skin-454g_1-edited.jpg"
-                    alt="Creme Hidratante CeraVe">
+                <img src="assets/CeraVe.jpg" alt="Creme Hidratante CeraVe">
                 <p>
-                    Desenvolvido com dermatologistas, o Creme Hidratante CeraVe é um aliado essencial para uma pele saudável e
-                    resiliente. Sua fórmula rica em 3 ceramidas essenciais e ácido hialurônico restaura a barreira protetora da
-                    pele, promovendo hidratação intensa e contínua por 24 horas. Ideal para peles secas a extrassecas, sua
-                    textura cremosa é absorvida rapidamente, sem deixar sensação oleosa. Perfeito para manter a pele do rosto e
+                    Desenvolvido com dermatologistas, o Creme Hidratante CeraVe é um aliado essencial para uma pele
+                    saudável e
+                    resiliente. Sua fórmula rica em 3 ceramidas essenciais e ácido hialurônico restaura a barreira
+                    protetora da
+                    pele, promovendo hidratação intensa e contínua por 24 horas. Ideal para peles secas a extrassecas,
+                    sua
+                    textura cremosa é absorvida rapidamente, sem deixar sensação oleosa. Perfeito para manter a pele do
+                    rosto e
                     corpo macia, suave e protegida.
                 </p>
             </div>
 
             <div class="produto-card">
                 <h2>Sérum The Ordinary Niacinamide 10% + Zinc 1%</h2>
-                <img src="https://source.roboflow.com/POXkC89m6tg0YsJHheEcgwFDFS93/4Udeasio0v1QJzjh96Qc/original.jpg"
-                    alt="Sérum The Ordinary Niacinamide + Zinc">
+                <img src="assets/Neutrogena.jpg" alt="Sérum The Ordinary Niacinamide + Zinc">
                 <p>
-                    Uma verdadeira potência contra imperfeições e oleosidade. Este sérum da The Ordinary combina uma alta
-                    concentração de Niacinamida (Vitamina B3) com Zinco PCA para reduzir visivelmente a aparência de manchas,
-                    congestões e poros dilatados. Ele regula a produção de sebo, uniformiza a textura e fortalece a barreira
-                    cutânea, resultando em uma pele mais clara, lisa e equilibrada. Indispensável na rotina de quem busca uma
+                    Uma verdadeira potência contra imperfeições e oleosidade. Este sérum da The Ordinary combina uma
+                    alta
+                    concentração de Niacinamida (Vitamina B3) com Zinco PCA para reduzir visivelmente a aparência de
+                    manchas,
+                    congestões e poros dilatados. Ele regula a produção de sebo, uniformiza a textura e fortalece a
+                    barreira
+                    cutânea, resultando em uma pele mais clara, lisa e equilibrada. Indispensável na rotina de quem
+                    busca uma
                     pele com aspecto saudável e sem brilho excessivo.
                 </p>
             </div>
         </div>
+        <div class="equipe-section">
+            <h2>
+                Nossos Doutores
+            </h2>
+            <div class="equipe-container">
+                <div class="membro-card">
+                    <img src="assets/Pessoa1.jpg" alt="Doutora Meredith">
+                    <h3>
+                        Doutora Meredith
+                    </h3>
+                    <p class="cargo">
+                        Diretora
+                    </p>
+                </div>
+                <div class="membro-card">
+                    <img src="assets/Pessoa2.jpg" alt="Doutor House">
+                    <h3>
+                        House
+                    </h3>
+                    <p class="cargo">
+                        Clinico
+                    </p>
+                </div>
+                <div class="membro-card">
+                    <img src="assets/Pessoa3.jpg" alt="Doutor John Doe">
+                    <h3>
+                        John Doe
+                    </h3>
+                    <p class="cargo">
+                        Assistente
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="formulario-section">
+            <h2>
+                Entre em contato
+            </h2>
+            <form action="#" method="post" class="contato-form"> 
+                <div class="form-group">
+                    <label for="Nome">
+                        Nome:
+                    </label>
+                    <input type="text" id="Nome" name="Nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">
+                        Email: 
+                    </label>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Cidade">
+                        Cidade:
+                    </label>
+                    <input type="text" id="Cidade" name="Cidade" required>
+                </div>
+                <div class="form-group">
+                    <label for="Estado">
+                        Estado:
+                    </label>
+                    <input type="text" id="Estado" name="Estado" required>
+                </div>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+        </div>
     </div>
+
+
 </body>
 
 </html>
